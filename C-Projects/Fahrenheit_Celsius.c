@@ -16,7 +16,7 @@ main()
 	fahren = lower; /* assign fahrenheit to the lower limit value */
 	while (fahren <= upper) {
 		cels = 5 * (fahren - 32) / 9;
-		printf("%d\t%d\n" fahren, cels);
+		printf("%d\t%d\n", fahren, cels);
 		fahren += step;
 	}
 }
